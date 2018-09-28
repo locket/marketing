@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css?family=Barlow:300,400,600,700');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700');
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  color: #4F4F4F;
+}
+
+.content {
+  position: absolute;
+  display: flex;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo {
+  margin-top: -55px;
+  font-family: Barlow, sans-serif;
+  color: #4F4F4F;
+  font-size: 120px;
+}
+
+.o {
+  color: #457B9D;
+}
+
+.message {
+  font-size: 50px;
+  color: #457B9D;
+}
